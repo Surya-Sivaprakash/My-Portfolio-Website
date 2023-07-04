@@ -1,30 +1,79 @@
 import React, { useState } from "react";
+import Alertmessage from "./Alertmessage";
+import { db } from "./firebase-config";
+import { collection, getDocs, addDoc } from "firebase/firestore";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const formData = { name, email, message };
-    // Send the form data to the server or perform other actions
-    // You can add your logic here
-    fetch("http://localhost:8000/blogs", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(formData),
-    }).then(() => {});
+  const [showAlert, setShowAlert] = useState(false);
+  const [alertMessage, setAlertMessage] = useState("");
+  const [alertType, setAlertType] = useState("");
 
-    console.log({ name, email, message });
-    // Reset the form fields
-    setName("");
-    setEmail("");
-    setMessage("");
+  const usersCollectionRef = collection(db, "Leads");
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   await addDoc(usersCollectionRef, {
+  //     Name: name,
+  //     Email: email,
+  //     Message: message,
+  //   });
+  //   // const formData = { name, email, message };
+  //   // Send the form data to the server or perform other actions
+  //   // You can add your logic here
+  //   // fetch("http://localhost:8000/blogs", {
+  //   //   method: "POST",
+  //   //   headers: { "content-type": "application/json" },
+  //   //   body: JSON.stringify(formData),
+  //   // }).then(() => {});
+
+  //   // console.log({ name, email, message });
+  //   // Reset the form fields
+  //   setName("");
+  //   setEmail("");
+  //   setMessage("");
+  // };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await addDoc(usersCollectionRef, {
+        Name: name,
+        Email: email,
+        Message: message,
+      });
+
+      // Data added successfully
+      setName("");
+      setEmail("");
+      setMessage("");
+
+      // Show success message to the user
+      setAlertMessage("Form submitted successfully!");
+      setAlertType("success");
+      setShowAlert(true);
+    } catch (error) {
+      // Handle any error that occurred during the data addition
+      console.error("Error adding document: ", error);
+      // Show error message to the user
+      setAlertMessage(
+        "An error occurred while submitting the form. Please try again."
+      );
+      setAlertType("error");
+      setShowAlert(true);
+    }
+  };
+
+  const handleAlertClose = () => {
+    setShowAlert(false);
   };
 
   return (
-    <div className="mt-52">
+    <div id="Contact" className="mt-52">
       <div className="mx-auto text-center opacity-25 mb-16">
         <div className="text-white text-[4.5rem]">Contact</div>
       </div>
@@ -88,6 +137,13 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        {showAlert && (
+          <Alertmessage
+            message={alertMessage}
+            type={alertType}
+            onClose={handleAlertClose}
+          />
+        )}
       </div>
     </div>
   );

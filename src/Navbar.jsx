@@ -56,32 +56,47 @@ const Navbar = () => {
         <div className="mx-auto text-center">
           <ul className="py-2 px-4 ">
             <li className="mb-10">
-              <a href="#" className="text-white text-4xl hover:text-indigo-600">
+              <a href="/" className="text-white text-4xl hover:text-indigo-600">
                 Home
               </a>
             </li>
             <li className="mb-10">
-              <a href="#" className="text-white text-4xl hover:text-indigo-600">
+              <a
+                href="#About"
+                className="text-white text-4xl hover:text-indigo-600"
+              >
                 About
               </a>
             </li>
             <li className="mb-10">
-              <a href="#" className="text-white text-4xl hover:text-indigo-600">
-                Skills
+              <a
+                href="#Skills"
+                className="text-white text-4xl hover:text-indigo-600"
+              >
+                My Skills
               </a>
             </li>
             <li className="mb-10">
-              <a href="#" className="text-white text-4xl hover:text-indigo-600">
+              <a
+                href="#Portfolio"
+                className="text-white text-4xl hover:text-indigo-600"
+              >
                 Portfolio
               </a>
             </li>
             <li className="mb-10">
-              <a href="#" className="text-white text-4xl hover:text-indigo-600">
+              <a
+                href="#Resume"
+                className="text-white text-4xl hover:text-indigo-600"
+              >
                 Resume
               </a>
             </li>
             <li className="mb-10">
-              <a href="#" className="text-white text-4xl hover:text-indigo-600">
+              <a
+                href="#Contact"
+                className="text-white text-4xl hover:text-indigo-600"
+              >
                 Contact
               </a>
             </li>

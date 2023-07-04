@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import Contact from "./Contact";
+// import Messages from "./Messages";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <Resume />
       <Contact />
+      {/* <Messages /> */}
     </>
   );
 }

@@ -2,7 +2,7 @@ import Icon from "./Icon";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div id="Portfolio">
       <div className="mx-auto text-center mb-10 mt-[20rem]">
         <div className="text-white text-[4.5rem] mb-10 opacity-25">
           Portfolio
@@ -59,10 +59,10 @@ const Portfolio = () => {
               Calculator
             </div>
             <div className="text-white text-xl mt-10 text-justify snine:mx-auto snine:text-center">
-              Introducing Simple Note Taker: a user-friendly app for creating,
-              managing, and organizing notes. Create, delete, search, and filter
-              through your collection with ease. Streamline your note-taking
-              experience and stay organized.
+              Calculator App The Calculator App is a web-based application built
+              with HTML, CSS, and JavaScript. It offers a user-friendly
+              interface for performing basic arithmetic calculations. Users can
+              input numbers, choose operators, and instantly obtain results.
             </div>
             <div className="flex justify-around mt-10 text-xl snine:block snine:mx-auto snine:text-center">
               <div>
@@ -108,10 +108,12 @@ const Portfolio = () => {
               Currency Converter
             </div>
             <div className="text-white text-xl mt-10 text-justify snine:mx-auto snine:text-center">
-              Introducing Simple Note Taker: a user-friendly app for creating,
-              managing, and organizing notes. Create, delete, search, and filter
-              through your collection with ease. Streamline your note-taking
-              experience and stay organized.
+              A web-based application providing real-time currency rates for
+              global currencies. Built with HTML, CSS, and JavaScript, it
+              enables instant conversion between different currencies. Users
+              input the amount, select source and target currencies, and obtain
+              converted values based on the latest exchange rates. Simplifying
+              currency conversion with a user-friendly interface.
             </div>
             <div className="flex justify-around mt-10 text-xl snine:block snine:mx-auto snine:text-center">
               <div>

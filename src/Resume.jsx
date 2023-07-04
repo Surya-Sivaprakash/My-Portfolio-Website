@@ -1,7 +1,7 @@
 import Icon from "./Icon";
 const Resume = () => {
   return (
-    <div className="mx-auto text-center">
+    <div id="Resume" className="mx-auto text-center">
       <div className="text-white text-[4.5rem] mx-auto text-center mt-40 opacity-25">
         Resume
       </div>

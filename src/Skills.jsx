@@ -1,7 +1,7 @@
 import Icon from "./Icon";
 const Skills = () => {
   return (
-    <div>
+    <div id="Skills">
       <div>
         <div className="text-white text-[4.5rem] snine:text-[4rem] mx-auto text-center mt-80 opacity-25">
           My Skills

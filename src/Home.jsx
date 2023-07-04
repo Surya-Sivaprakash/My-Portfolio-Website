@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <>
+    <div id="Home">
       <div className="flex justify-center items-center mt-60 ">
         <div className="text-white text-7xl">
           <span className="animate-text-shadow-pop-right">Hello.</span>
@@ -22,7 +22,7 @@ const Home = () => {
           <div className="text-white text-6xl ">Surya S</div>
         </div>
       </div> */}
-    </>
+    </div>
   );
 };
 
