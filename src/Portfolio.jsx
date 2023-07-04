@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="max-w-5xl w-full px-4 flex gap-9 snine:block">
           <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
             <img
-              src="src/assets/NoteTaker.gif"
+              src="assets/NoteTaker.gif"
               alt="profile image"
               className=" w-[35rem] h-[25rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
             />
@@ -85,7 +85,7 @@ const Portfolio = () => {
           </div>
           <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
             <img
-              src="src/assets/calculator.gif"
+              src="assets/calculator.gif"
               alt="profile image"
               className=" w-[35rem] h-[32rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
             />
@@ -98,7 +98,7 @@ const Portfolio = () => {
         <div className="max-w-5xl w-full px-4 flex gap-9 snine:block">
           <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
             <img
-              src="src/assets/currencyConverter.gif"
+              src="assets/currencyConverter.gif"
               alt="profile image"
               className=" w-[35rem] h-[30rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
             />
@@ -181,7 +181,7 @@ const Portfolio = () => {
             </div>
             <div className="w-[100vw] h-[30vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
               <img
-                src="src/assets/vificapital.gif"
+                src="assets/vificapital.gif"
                 alt="profile image"
                 className=" w-[33rem] h-[30rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
               />

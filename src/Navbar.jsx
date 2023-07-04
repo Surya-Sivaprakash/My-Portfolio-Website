@@ -15,7 +15,7 @@ const Navbar = () => {
           <div class="w-16 h-16 bg-black rounded-full ">
             <img
               class="w-full h-full object-cover rounded-full"
-              src="src/assets/profile.jpg"
+              src="assets/profile.jpg"
               alt="Customer Profile"
             />
           </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex justify-around">
           {/* <div className="outline-double">
             <img
-              src="public/assets/profile.jpg"
+              src="assets/profile.jpg"
               alt="myProfile"
               className="h-[60vh] w-[30vw]"
             />
