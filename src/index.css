@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: "Livvic";
+  src: url("fonts/Livvic/Livvic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("fonts/OpenSans/static/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Livvic";
+}
