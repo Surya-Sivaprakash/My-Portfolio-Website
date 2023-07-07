@@ -3,7 +3,7 @@ import Icon from "./Icon";
 const Portfolio = () => {
   return (
     <div id="Portfolio">
-      <div className="mx-auto text-center mb-10 mt-[20rem]">
+      <div className="mx-auto text-center mb-10 mt-[20rem] snine:mt-[10rem]">
         <div className="text-white text-[4.5rem] mb-10 opacity-25">
           Portfolio
         </div>
@@ -100,7 +100,7 @@ const Portfolio = () => {
             <img
               src="assets/currencyConverter.gif"
               alt="profile image"
-              className=" w-[35rem] h-[30rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
+              className=" w-[40rem] h-[30rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
             />
           </div>
           <div>

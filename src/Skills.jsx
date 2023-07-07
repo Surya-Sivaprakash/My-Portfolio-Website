@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <div id="Skills">
       <div>
-        <div className="text-white text-[4.5rem] snine:text-[4rem] mx-auto text-center mt-80 opacity-25">
+        <div className="text-white text-[4.5rem] snine:text-[4rem] mx-auto text-center mt-80 snine:mt-[10rem] opacity-25">
           My Skills
         </div>
       </div>
@@ -109,7 +109,7 @@ const Skills = () => {
               </div>
               <div className="flex justify-center items-center">
                 <div className="text-white text-2xl mt-10 sfsf:text-lg szfs:text-sm">
-                  mongodb
+                  Mongodb
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Skills = () => {
               </div>
               <div className="flex justify-center items-center">
                 <div className="text-white text-2xl mt-10 sfsf:text-lg szfs:text-sm">
-                  mysql
+                  Mysql
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Skills = () => {
               </div>
               <div className="flex justify-center items-center">
                 <div className="text-white text-2xl mt-10 sfsf:text-lg szfs:text-sm">
-                  firebase
+                  Firebase
                 </div>
               </div>
             </div>
@@ -155,8 +155,8 @@ const Skills = () => {
                 </div>
               </div>
               <div className="flex justify-center items-center">
-                <div className="text-white text-[1.2rem] mt-10 sfsf:text-lg szfs:text-sm">
-                  Tailwindcss
+                <div className="text-white text-2xl ss:text-[0.5rem] mt-10 sfsf:text-lg szfs:text-sm">
+                  Tailwind
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ const Skills = () => {
               </div>
               <div className="flex justify-center items-center">
                 <div className="text-white text-2xl mt-10 sfsf:text-lg szfs:text-sm">
-                  figma
+                  Figma
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ const Skills = () => {
               </div>
               <div className="flex justify-center items-center">
                 <div className="text-white text-2xl mt-10 sfsf:text-lg szfs:text-sm">
-                  chakraui
+                  Chakraui
                 </div>
               </div>
             </div>
