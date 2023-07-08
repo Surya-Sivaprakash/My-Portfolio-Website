@@ -16,25 +16,9 @@ export default {
             transform: "translateX(-8px)",
           },
         },
-        "tracking-in-contract-bck": {
-          "0%": {
-            "letter-spacing": "1em",
-            transform: "translateZ(400px)",
-            opacity: 0,
-          },
-          "40%": {
-            opacity: 0.6,
-          },
-          "100%": {
-            transform: "translateZ(0)",
-            opacity: 1,
-          },
-        },
       },
       animation: {
         "text-shadow-pop-right": "text-shadow-pop-right 2s both",
-        "tracking-in-contract-bck":
-          "tracking-in-contract-bck 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both",
       },
     },
     screens: {

@@ -1,5 +1,5 @@
 const Alertmessage = ({ message, type, onClose }) => {
-  const alertClasses = `fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-opacity-50 bg-gray-900`;
+  const alertClasses = `fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-opacity-0 bg-gray-900`;
 
   const alertContentClasses = `bg-[#121212] p-20 rounded-md shadow-md`;
 

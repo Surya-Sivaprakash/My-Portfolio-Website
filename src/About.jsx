@@ -1,15 +1,5 @@
 import Icon from "./Icon";
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 const About = () => {
   return (
     <Zoom duration={2000}>

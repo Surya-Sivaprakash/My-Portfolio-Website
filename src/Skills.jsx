@@ -1,15 +1,5 @@
 import Icon from "./Icon";
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-} from "react-awesome-reveal";
+import { Slide, Zoom } from "react-awesome-reveal";
 const Skills = () => {
   return (
     <div id="Skills">

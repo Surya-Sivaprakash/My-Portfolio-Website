@@ -2,17 +2,7 @@ import React, { useState } from "react";
 import Alertmessage from "./Alertmessage";
 import { db } from "./firebase-config";
 import { collection, getDocs, addDoc } from "firebase/firestore";
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const Contact = () => {
   const [name, setName] = useState("");

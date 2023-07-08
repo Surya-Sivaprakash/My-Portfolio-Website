@@ -1,14 +1,4 @@
-import {
-  Bounce,
-  Fade,
-  Flip,
-  Hinge,
-  JackInTheBox,
-  Roll,
-  Rotate,
-  Slide,
-  Zoom,
-} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 import Icon from "./Icon";
 const Resume = () => {
   return (
