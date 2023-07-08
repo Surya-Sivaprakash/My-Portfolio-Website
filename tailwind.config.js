@@ -32,7 +32,7 @@ export default {
         },
       },
       animation: {
-        "text-shadow-pop-right": "text-shadow-pop-right 4s both",
+        "text-shadow-pop-right": "text-shadow-pop-right 2s both",
         "tracking-in-contract-bck":
           "tracking-in-contract-bck 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both",
       },
