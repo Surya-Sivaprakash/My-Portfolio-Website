@@ -4,20 +4,19 @@
 
 html {
   background-color: #000000;
-
   overflow-x: hidden;
 }
 
 @font-face {
   font-family: "Livvic";
-  src: url("fonts/Livvic/Livvic-Regular.ttf") format("truetype");
+  src: url("fonts/Livvic-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("fonts/OpenSans/static/OpenSans-Regular.ttf") format("truetype");
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
 body {
-  font-family: "Livvic";
+  font-family: "Livvic", "OpenSans";
 }
