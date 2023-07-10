@@ -17,7 +17,7 @@ const Resume = () => {
         <div className="flex justify-center items-center mt-10">
           <div className="flex justify-around mt-10 text-xl snine:block snine:mx-auto snine:text-center">
             <div>
-              <a href="src/assets/Resume.pdf" download="Resume">
+              <a href="/assets/Resume.pdf" download="Resume">
                 <div className="flex justify-center items-center">
                   <p className="text-white mr-4">Download pdf</p>
                   <Icon iconName="download" width={"2.8vw"} height={"2.8vh"} />
