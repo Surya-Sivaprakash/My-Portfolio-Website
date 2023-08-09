@@ -31,6 +31,7 @@ export default {
       szfs: { min: "0px", max: "570px" },
 
       sfsf: { min: "571px", max: "749px" },
+      sfse: { min: "571px", max: "899px" },
       sftf: { min: "901px", max: "2800px" },
 
       sm: { min: "640px", max: "767px" },

@@ -16,12 +16,16 @@ const Portfolio = () => {
       <Slide direction="left" duration={1500}>
         <div className="flex justify-center ">
           <div className="max-w-5xl w-full px-4 flex gap-9 snine:block">
-            <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
-              <img
-                src="assets/NoteTaker.gif"
-                alt="profile image"
-                className=" w-[35rem] h-[25rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
-              />
+            <div className="w-[90vw] h-[40vh] snine:w-[80vw] snine:h-[50vh] sfse:w-[60vw] snine:mx-auto snine:flex snine:justify-center snine:items-center">
+              <video
+                autoPlay
+                loop
+                muted
+                width="100"
+                className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[70vh]"
+              >
+                <source src="assets/NoteTaker.webm" type="video/webm" />
+              </video>
             </div>
 
             <div>
@@ -91,11 +95,15 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
-              <img
-                src="assets/calculator.gif"
-                alt="profile image"
-                className=" w-[35rem] h-[32rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
-              />
+              <video
+                autoPlay
+                loop
+                muted
+                width="100"
+                className="w-[70vw] h-[50vh] snine:w-[90vw] snine:h-[50vh]"
+              >
+                <source src="assets/calculator.webm" type="video/webm" />
+              </video>
             </div>
           </div>
         </div>
@@ -104,12 +112,16 @@ const Portfolio = () => {
       <Slide direction="left" duration={1500}>
         <div className="flex justify-center mt-[14rem]">
           <div className="max-w-5xl w-full px-4 flex gap-9 snine:block">
-            <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
-              <img
-                src="assets/currencyConverter.gif"
-                alt="profile image"
-                className=" w-[40rem] h-[30rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
-              />
+            <div className="w-[90vw] h-[40vh] snine:w-[80vw] snine:h-[50vh] sfse:w-[60vw] snine:mx-auto snine:flex snine:justify-center snine:items-center">
+              <video
+                autoPlay
+                loop
+                muted
+                width="100"
+                className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[70vh]"
+              >
+                <source src="assets/currencyConverter.webm" type="video/webm" />
+              </video>
             </div>
             <div>
               <div className="text-white text-5xl snine:mx-auto snine:text-center snine:mt-16">
@@ -193,12 +205,16 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[100vw] h-[30vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
-                <img
-                  src="assets/vificapital.gif"
-                  alt="profile image"
-                  className=" w-[33rem] h-[30rem] snine:w-[22rem] snine:h-[25rem] rounded-3xl"
-                />
+              <div className="w-[150rem] mt-[6rem] h-[50vh] snine:w-[80vw] snine:h-[50vh] sfse:w-[60vw] snine:mx-auto snine:flex snine:justify-center snine:items-center">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  width="100"
+                  className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[70vh]"
+                >
+                  <source src="assets/vifi.webm" type="video/webm" />
+                </video>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ const Resume = () => {
         </div>
         <div className="flex justify-center mt-20">
           <img
-            src="assets/ResumePreview.png"
+            src="assets/ResumePreview.webp"
             alt="Resume Preview"
             className="w-[22rem] h-[30rem] rounded-2xl"
           />

@@ -15,7 +15,7 @@ const Navbar = () => {
           <div class="w-16 h-16 bg-black rounded-full ">
             <img
               class="w-full h-full object-cover rounded-full"
-              src="assets/profile.jpg"
+              src="assets/profile.webp"
               alt="Customer Profile"
             />
           </div>

@@ -11,7 +11,7 @@ const About = () => {
           <div className="max-w-5xl w-full px-4 flex gap-9 snine:block">
             <div className="w-[90vw] h-[40vh] snine:w-[90vw] snine:h-[50vh] snine:flex snine:justify-center snine:items-center ">
               <img
-                src="assets/profilePicture.png"
+                src="assets/profilePicture.webp"
                 alt="profile image"
                 className=" snine:w-[22rem] snine:h-[25rem] rounded-3xl"
               />
